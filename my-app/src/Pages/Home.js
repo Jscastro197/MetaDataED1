@@ -4,7 +4,7 @@ let Home=()=>{
 
     return(
         <React.Fragment>
-            hello world
+            hello 
         </React.Fragment>
     );
 }
