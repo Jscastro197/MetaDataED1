@@ -1,3 +1,6 @@
 private.key
 _pycache_
+__pychache__
+app.cpython-311.pyc
 git
+.venv
