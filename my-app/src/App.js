@@ -3,6 +3,7 @@ import Dashboard from "./Pages/Dashboard"
 import Home from "./Pages/Home"
 import Login from "./Pages/Login"
 import NavbarComp from "./components/Navbar"
+import Upload from "./Pages/Upload"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/upload" element={<Upload />} />
     </Routes>
     </>
   )

@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Upload extends Component {
-  render() {
-    return (
-      <div>
-      <h1>Upload Here</h1>
-        
-      </div>
-    )
-  }
+const Upload = () => {
+  return (
+    <div>
+    <h1>Upload Here</h1>
+      
+    </div>
+  )
 }
+
+export default Upload

@@ -8,7 +8,7 @@ export default class NavbarComp extends Component {
     return (
       <Navbar bg="dark" variant={"dark"}>
       <Container>
-        <Navbar.Brand href="/Home">Home</Navbar.Brand>
+        <Navbar.Brand href="/">Home</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
         <Nav className="me-auto">
@@ -16,7 +16,7 @@ export default class NavbarComp extends Component {
             <Nav.Link href="/upload">Upload</Nav.Link>
         </Nav>
           <Navbar.Text>
-            Signed in as: <a href="/login">Mark Otto</a>
+            Signed in as: <a href="/login">Team 6</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
