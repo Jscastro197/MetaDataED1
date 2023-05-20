@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom"
-import Dashboard from "./Pages/Dashboard"
-import Home from "./Pages/Home"
-import Login from "./Pages/Login"
+import Dashboard from "./pages/Dashboard"
+import Home from "./pages/Home"
+import Login from "./pages/Login"
 import NavbarComp from "./components/Navbar"
-import Upload from "./Pages/Upload"
+import Upload from "./pages/Upload"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
