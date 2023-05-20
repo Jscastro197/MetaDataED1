@@ -1,7 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-export const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
+export default class NavbarComp extends Component {
+  render() {
+    return (
+      <Navbar bg="dark" variant={"dark"}>
+      <Container>
+        <Navbar.Brand href="/Home">Home</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+        <Nav className="me-auto">
+            <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+            <Nav.Link href="/upload">Upload</Nav.Link>
+        </Nav>
+          <Navbar.Text>
+            Signed in as: <a href="/login">Mark Otto</a>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    )
+  }
 }
+
