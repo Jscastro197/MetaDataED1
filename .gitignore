@@ -4,3 +4,4 @@ __pychache__
 app.cpython-311.pyc
 git
 .venv
+.env
