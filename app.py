@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, request, url_for, redirect
 from dotenv import dotenv_values
 from pymongo import MongoClient
 
@@ -6,11 +6,11 @@ config = dotenv_values(".env")
 
 app = Flask(__name__)
 
-def startup_db_client():
-    app.mongodb_client = MongoClient(config["ATLAS_URI"])
-    app.database = app.mongodb_client[config["DB_NAME"]]
-    print("Connected to the MongoDB database!")
+client = MongoClient(config["ATLAS_URI"])
 
-@app.teardown_appcontext
-def shutdown_db_client(exception=None):
-    app.mongodb_client.close()
+db = client.flask_db
+ed1 = db.ed1
+
+@app.route('/', methods=('GET', 'POST'))
+def index():
+    return render_template('index.html')

@@ -5,3 +5,5 @@ app.cpython-311.pyc
 git
 .venv
 .env
+env
+templates/
