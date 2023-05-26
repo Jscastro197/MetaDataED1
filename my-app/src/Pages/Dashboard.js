@@ -1,11 +1,12 @@
 import React from 'react'
 import './Dashboard.css'
+import { Bargraph } from '../components/Bargraph'
 
 const Dashboard = () => {
   return (
     <div>
     <h1 className="text-3xl font-bold underline">
-      Dashboard
+      <Bargraph/>
     </h1>
       
     </div>
