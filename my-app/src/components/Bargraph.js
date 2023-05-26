@@ -1,11 +1,12 @@
 import React from 'react';
 import * as d3 from 'd3';
+import './Bargraph.css'
 
 export const Bargraph = () => {
   const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
   
   const w = 500;
-  const h = 100;
+  const h = 180;
   
   return (
     <div>
@@ -16,8 +17,9 @@ export const Bargraph = () => {
             x={i * 30}
             y={h - 3 * d}
             width={25}
-            height={d * 3}
+            height={d * 5}
             fill="navy"
+            className='bar'
           />
         ))}
         {dataset.map((d, i) => (
@@ -25,7 +27,9 @@ export const Bargraph = () => {
             key={i}
             x={i * 30}
             y={h - 3 * d - 3}
-          >
+            fill='black'
+            fontSize={'20px'}
+            >
             {d}
           </text>
         ))}
