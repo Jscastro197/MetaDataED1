@@ -16,7 +16,7 @@ export default class NavbarComp extends Component {
             <Nav.Link href="/upload">Upload</Nav.Link>
         </Nav>
           <Navbar.Text>
-            Signed in as: <a href="/login">Team 6</a>
+            Signed in as: <a href="/login">Team 5</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
