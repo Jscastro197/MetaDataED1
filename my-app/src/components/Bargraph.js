@@ -1,7 +1,7 @@
 import React from 'react';
 import * as d3 from 'd3';
 
-export const Piechart = () => {
+export const Bargraph = () => {
   const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
   
   const w = 500;
