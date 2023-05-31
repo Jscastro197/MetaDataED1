@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NavbarComp from "./components/Navbar";
 import Upload from "./pages/Upload";
+import Topbar from "./global/Topbar"
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider} from '@mui/material'
 import 'bootstrap/dist/css/bootstrap.min.css';
