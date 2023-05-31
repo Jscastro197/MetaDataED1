@@ -10,6 +10,7 @@ export const Bargraph = () => {
   
   return (
     <div>
+      {/* <div className='tablebg'>
       <svg width={w} height={h}>
         {dataset.map((d, i) => (
           <rect
@@ -34,6 +35,7 @@ export const Bargraph = () => {
           </text>
         ))}
       </svg>
+      </div> */}
     </div>
   );
 };

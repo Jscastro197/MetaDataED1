@@ -6,4 +6,6 @@ git
 .venv
 .env
 env
+.flaskenv
 templates/
+node_modules/
