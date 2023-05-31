@@ -24,8 +24,8 @@ db = client.files
 my_collection = db["bucket"]
 
 
-files = [{ "name": "Jeff", "file_type": ["txt", "pdf"]},
-       { "name": "George","file_type": ["ppt", "pdf"]}]
+files = [{ "name": "Test", "file_type": ["txt", "pdf"]},
+       { "name": "123","file_type": ["ppt", "pdf"]}]
 
 
 # drop the collection in case it already exists
