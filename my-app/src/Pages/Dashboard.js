@@ -1,7 +1,5 @@
 import React from 'react'
 import './Dashboard.css'
-import { Bargraph } from '../components/Bargraph'
-import { Sidebar } from '../components/Sidebar'
 
 const Dashboard = () => {
   return (
