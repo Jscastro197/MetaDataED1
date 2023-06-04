@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 
-let Login=()=>{
-    return(
-        <React.Fragment>
-            Here's a login
-        </React.Fragment>
-    );
-}
+const Login = () => {
+  return (
+    <div>
+      <h2>This is the Login</h2>
+      {/* Add login form and logic here */}
+    </div>
+  );
+};
+
 export default Login;
