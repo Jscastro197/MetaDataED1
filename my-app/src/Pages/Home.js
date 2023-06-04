@@ -4,7 +4,7 @@ let Home=()=>{
 
     return(
         <React.Fragment>
-            hello world
+            This is the main page after login in it will display and search for metadata content
         </React.Fragment>
     );
 }
