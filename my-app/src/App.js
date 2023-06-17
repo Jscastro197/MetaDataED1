@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Route, Routes } from "react-router-dom"
-import Welcome from './Pages/Welcome';
-import Login from './Pages/Login';
-import Signup from './Pages/Signup';
+import Welcome from './pages/Welcome';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import Navbar from './Components/Navbar';
 
 const App = () => {
