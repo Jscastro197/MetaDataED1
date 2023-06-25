@@ -9,3 +9,4 @@ env
 .flaskenv
 templates/
 node_modules/
+.idea/
