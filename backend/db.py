@@ -1,16 +1,10 @@
 import pymongo
 import sys
-
-# def get_client(host,port,username,password,db):
-#       return MongoClient('mongodb://{}:{}/'.format(host,port),
-#                          username=jcastro2022,
-#                          password=password,
-#                          authSource=db,
-#                          ssl=True,ssl_cert_reqs=ssl.CERT_NONE)
+import ssl
 
 def db():
     try:
-        client = pymongo.MongoClient("mongodb+srv://jcastro2022:1riSNSeYllxZJmoi@fullstackhw.kf2vbkw.mongodb.net/",ssl_cert_reqs=ssl.CERT_NONE)
+        client = pymongo.MongoClient("mongodb+srv://jcastro2022:1riSNSeYllxZJmoi@fullstackhw.kf2vbkw.mongodb.net/")
   
     # return a friendly error if a URI error is thrown
     except pymongo.errors.ConfigurationError:
